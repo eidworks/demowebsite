@@ -7,19 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="index.html">
-            HAUS DER <span>GESUNDHEIT</span>
-        </a>
-
-        <nav class="main-nav" aria-label="Hauptnavigation">
-            <a href="index.html">Startseite</a>
-            <a href="ueber-mich.html">Über mich</a>
-            <a class="active" href="leistungen.html">Leistungen</a>
-            <a href="praxis.html">Die Praxis</a>
-            <a class="nav-button" href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
+    <div data-include="components/header.html"></div>
 
     <main>
         <section class="page-hero">
@@ -81,23 +69,8 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div>
-            <a class="logo" href="index.html">
-                HAUS DER <span>GESUNDHEIT</span>
-            </a>
-            <p>Ernährungs- und Bewegungstherapie</p>
-        </div>
+    <div data-include="components/footer.html"></div>
 
-        <div>
-            <p>Musterstraße 1<br>12345 Musterstadt</p>
-        </div>
-
-        <div>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="datenschutz.html">Datenschutz</a>
-            <a href="impressum.html">Impressum</a>
-        </div>
-    </footer>
+    <script src="js/partials.js"></script>
 </body>
 </html>
