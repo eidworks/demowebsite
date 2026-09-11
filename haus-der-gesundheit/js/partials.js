@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const html = await response.text();
             element.innerHTML = html;
+
+            document.querySelectorAll("[data-current-year]").forEach((yearEl) => {
+                yearEl.textContent = new Date().getFullYear();
+            });
         } catch (error) {
             console.error(error);
             element.innerHTML = "<p>Inhalt konnte nicht geladen werden.</p>";

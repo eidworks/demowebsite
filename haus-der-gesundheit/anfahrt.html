@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfahrt | Haus der Gesundheit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+
+    <main>
+        <section class="page-hero">
+            <div>
+                <p class="eyebrow">So finden Sie uns</p>
+                <h1>Anfahrt</h1>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="two-column-layout">
+                <div id="page-content" class="text-column"></div>
+                <div class="map-wrapper map-column">
+                    <iframe
+                        src="https://www.google.com/maps?q=Musterstra%C3%9Be+1,+12345+Musterstadt&z=14&output=embed"
+                        width="100%"
+                        height="420"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Anfahrt zu Haus der Gesundheit">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+
+    <script src="js/partials.js"></script>
+    <script src="js/markdown-loader.js"></script>
+</body>
+</html>
